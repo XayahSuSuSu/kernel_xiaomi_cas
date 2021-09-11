@@ -10,8 +10,15 @@ config MACH_XIAOMI_SM8250
 	bool "Xiaomi SM8250"
 	depends on ARCH_QCOM
 	select MACH_XIAOMI
+	select OSSFOD
 	help
 	  Support for Xiaomi SM8250 devices
+
+config OSSFOD
+	bool "OSS FOD support"
+	depends on MACH_XIAOMI_SM8250
+	help
+	  When this option is enabled, OSS FOD support will be added.
 
 menu "Xiaomi board selection"
 
