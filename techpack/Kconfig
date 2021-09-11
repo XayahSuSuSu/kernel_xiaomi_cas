@@ -2,4 +2,10 @@ menu "Tech packages"
 
 source "techpack/data/Kconfig"
 
+config OSSFOD
+	bool "OSS FOD support"
+	depends on BOARD_XIAOMI
+	help
+	  When this option is enabled, OSS FOD support will be added.
+
 endmenu
