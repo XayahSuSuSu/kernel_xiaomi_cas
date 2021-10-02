@@ -126,6 +126,8 @@
 	mi,mdss-dsi-panel-dc-threshold = <470>;
 	mi,mdss-dsi-panel-dc-type = <2>; /* differ to cmi */
 
+	// mi,mdss-dsi-panel-fod-dimlayer-enabled;
+
 	qcom,disp-doze-lpm-backlight = <20>;
 	qcom,disp-doze-hbm-backlight = <266>;
 
